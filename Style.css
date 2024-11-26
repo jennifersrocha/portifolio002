@@ -51,6 +51,33 @@ body {
     background: transparent;
     max-width: 600px;
 }
+/* Home section container */
+.home {
+    display: flex; /* Use flexbox to align content horizontally */
+    align-items: center; /* Center content vertically */
+    justify-content: space-between; /* Space out content evenly */
+    padding: 50px 20px; /* Add some padding */
+}
+
+/* Content on the left side */
+.home-content {
+    flex: 1; /* Content takes up 1/2 of the space */
+    max-width: 50%; /* Optional: set a max-width for content */
+}
+
+/* Image styling on the right */
+.home-image {
+    flex: 1; /* Image takes up 1/2 of the space */
+    max-width: 30%; /* Optional: set a max-width for the image */
+    display: flex;
+    justify-content: center; /* Center the image */
+}
+
+.home-img {
+    width: 100%; /* Make the image take up full width of the container */
+    height: auto; /* Maintain the aspect ratio of the image */
+    border-radius: 50%; /* Optional: make the image circular */
+}
 .home-content h1 {
     font-size: 56px;
     font-weight: 700;
